@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_crearContacto"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_crearContacto" />
+
+        <item
+            android:id="@+id/nav_listaContactos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_listaContacto" />
+        <item
+            android:id="@+id/nav_listaSecretos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_listaSecretos" />
+        <item
+            android:id="@+id/nav_agregarSecreto"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_agregarSecreto" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_login" />
+        <item
+            android:id="@+id/nav_registrarse"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_registro" />
+
+    </group>
+</menu>

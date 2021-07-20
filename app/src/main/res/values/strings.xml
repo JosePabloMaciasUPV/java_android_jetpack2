@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Contactos_Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_crearContacto">Crear Contacto</string>
+    <string name="menu_editarContacto">Editar Contacto</string>
+    <string name="menu_listaContacto">Lista Contactos</string>
+    <string name="menu_listaSecretos">Secretos</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_registro">Registrarse</string>
+    <string name="menu_agregarSecreto">Agregar Secreto</string>
+
+    <string name="main_et_nombre_hint">Nombre</string>
+    <string name="main_et_nombre_error_falta_dato">Ingrese el nombre</string>
+    <string name="main_et_telefono_hint">Teléfono</string>
+    <string name="main_et_email_hint">Correo Electrónico</string>
+    <string name="main_btn_agregar_text">Agregar</string>
+    <string name="editar_btn_editar_text">Editar</string>
+    <string name="editar_btn_eliminar_text">Borrar</string>
+
+
+
+    <string name="login_et_usuario">Correo electrónico</string>
+    <string name="login_et_contrasenia">Contraseña</string>
+    <string name="login_tv_titulo">Inicia sesión</string>
+    <string name="login_btn_ingresar">Entrar</string>
+    <string name="login_btn_registrarse">Crear una cuenta</string>
+
+
+
+    <string name="registrarse_tv_titulo">Registra una nueva cuenta</string>
+    <string name="registrarse_et_nombre">Nombre</string>
+    <string name="registrarse_et_apellido">Apellido</string>
+    <string name="registrarse_et_sexo">Género</string>
+    <string name="registrarse_et_correo">Correo electrónico</string>
+    <string name="registrarse_et_contrasenia">Contraseña</string>
+    <string name="registrarse_et_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="registrarse_btn_registrar">Registrarme</string>
+    <string name="registrarse_btn_iniciar_sesion">Iniciar sesión</string>
+
+
+
+    <string name="agregar_secreto_tv_titulo">Crear secreto</string>
+    <string name="agregar_secreto_et_nombre">Nombre del secreto</string>
+    <string name="agregar_secreto_et_descripcion">Descripción del secreto</string>
+    <string name="agregar_secreto_et_secreto">Cadena secreta</string>
+    <string name="agregar_secreto_btn_agregar">Agregar secreto</string>
+</resources>

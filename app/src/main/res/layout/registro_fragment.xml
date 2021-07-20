@@ -1,0 +1,85 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse_tv_titulo" />
+
+    <EditText
+        android:id="@+id/registro_et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registrarse_et_nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registro_et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registrarse_et_apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registro_et_sexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registrarse_et_sexo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registro_et_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registrarse_et_correo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registro_et_contrasenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registrarse_et_contrasenia"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/registro_et_fecha_nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/registrarse_et_fecha_nacimiento"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/registro_btn_registrarme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse_btn_registrar" />
+
+    <Button
+        android:id="@+id/registro_btn_iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse_btn_iniciar_sesion" />
+
+    <TextView
+        android:id="@+id/registro_tv_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+</LinearLayout>

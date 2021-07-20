@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_listaContactos">
+
+    <fragment
+        android:id="@+id/nav_crearContacto"
+        android:name="edu.upv.cdm.contactos_navigation.ui.crearContacto.CrearContactoFragment"
+        android:label="@string/menu_crearContacto"
+        tools:layout="@layout/crear_contacto_fragment" />
+    <fragment
+        android:id="@+id/nav_listaSecretos"
+        android:name="edu.upv.cdm.contactos_navigation.ui.listaSecretos.ListaSecretosFragment"
+        android:label="@string/menu_listaSecretos"
+        tools:layout="@layout/lista_secretos_fragment" />
+    <fragment
+        android:id="@+id/nav_agregarSecreto"
+        android:name="edu.upv.cdm.contactos_navigation.ui.agregarSecreto.AgregarSecretoFragment"
+        android:label="@string/menu_agregarSecreto"
+        tools:layout="@layout/agregar_secreto_fragment" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="edu.upv.cdm.contactos_navigation.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/login_fragment" />
+    <fragment
+        android:id="@+id/nav_registrarse"
+        android:name="edu.upv.cdm.contactos_navigation.ui.registro.RegistroFragment"
+        android:label="@string/menu_registro"
+        tools:layout="@layout/registro_fragment" />
+
+
+
+
+
+    <fragment
+        android:id="@+id/nav_editarContacto"
+        android:name="edu.upv.cdm.contactos_navigation.ui.editarContacto.EditarContactoFragment"
+        android:label="@string/menu_editarContacto"
+        tools:layout="@layout/editar_contacto_fragment" >
+        <argument
+            android:name="idContacto"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_listaContactos"
+        android:name="edu.upv.cdm.contactos_navigation.ui.listaContactos.ListaContactosFragment"
+        android:label="@string/menu_listaContacto"
+        tools:layout="@layout/lista_contactos_fragment" >
+
+        <action
+            android:id="@+id/action_nav_listaContactos_to_nav_editarContacto2"
+            app:destination="@id/nav_editarContacto" />
+        <argument
+            android:name="idContacto"
+            app:argType="long" />
+    </fragment>
+
+</navigation>
